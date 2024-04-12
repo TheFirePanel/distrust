@@ -10,5 +10,5 @@ require (
 	github.com/rs/zerolog v1.32.0
 	github.com/spf13/viper v1.18.2
 	golang.org/x/crypto v0.22.0
-	gopkg.in/square/go-jose.v2 v2.5.1
+	gopkg.in/square/go-jose.v2 v2.6.0
 )
