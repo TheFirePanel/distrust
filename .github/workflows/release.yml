@@ -43,7 +43,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish main tag
-        if: "!startsWith(github.ref, 'refs/tags/')"
         uses: docker/build-push-action@v5
         with:
           push: true
