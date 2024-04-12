@@ -46,7 +46,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ghcr.io/parkour-vienna/distrust:master
+          tags: ghcr.io/${{ github.event.repo.name }}:master
           context: dist/distrust_linux_amd64_v1
           file: Dockerfile
       - name: Clear
