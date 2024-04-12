@@ -46,7 +46,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ghcr.io/${{ github.event.repo.name }}:master
+          tags: ghcr.io/thefirepanel/distrust:master
           context: dist/distrust_linux_amd64_v1
           file: Dockerfile
       - name: Clear
