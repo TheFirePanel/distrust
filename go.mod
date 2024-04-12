@@ -7,8 +7,9 @@ require (
 	github.com/google/uuid v1.1.2
 	github.com/ory/fosite v0.40.2
 	github.com/pkg/errors v0.9.1
-	github.com/rs/zerolog v1.23.0
+	github.com/rs/zerolog v1.32.0
 	github.com/spf13/viper v1.4.0
 	golang.org/x/crypto v0.0.0-20201203163018-be400aefbc4c
+	golang.org/x/tools v0.1.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.5.1
 )
