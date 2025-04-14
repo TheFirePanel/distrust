@@ -9,6 +9,6 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/rs/zerolog v1.33.0
 	github.com/spf13/viper v1.19.0
-	golang.org/x/crypto v0.25.0
+	golang.org/x/crypto v0.35.0
 	gopkg.in/square/go-jose.v2 v2.6.0
 )
